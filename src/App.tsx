@@ -1,9 +1,13 @@
 import './App.css';
+import { FilmInfo } from './compnents/filmInfo/FilmInfo';
+export const App = () => {
 
-export const App = () => (
-  <div className="App">
 
-  </div>
-);
+  return (
+    <div className='App'>
+      <FilmInfo/>
+    </div>
+  )
+};
 
 
