@@ -63,6 +63,16 @@ export const FilmInfo = () => {
           <p>Country: {filmData.Country}</p>
           <p>Budget: {filmData.BoxOffice}</p>
         </div>
+        <div>
+          <h3>Info</h3>
+          <h4>Film title: {filmData.Title}</h4>
+          <p>Genre: {filmData.Genre}</p>
+          <p>Released: {filmData.Released}</p>
+          <p>Director: {filmData.Director}</p>
+          <p>Actors: {filmData.Actors}</p>
+          <p>Country: {filmData.Country}</p>
+          <p>Budget: {filmData.BoxOffice}</p>
+        </div>
       </div>
     </div>
   );
